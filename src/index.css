@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0  / var(--tw-bg-opacity));
+}
+/* in your CSS file */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+/* Custom font sizes */
+.text-small {
+    font-size: 100px;
+  }
+  
+  .text-medium {
+    font-size: 6rem;
+  }
+  
+  .text-large {
+    font-size: 9rem;
+  }
+  
+  .text-extra-large {
+    font-size: 11rem;
+  }
+  
+  .text-huge {
+    font-size: 15rem;
+  }
+  
+  .text-extra-huge {
+    font-size: 17rem;
+  }
+  
+  .text-giant {
+    font-size: 19rem;
+  }
+  .box-center{
+    align-items: center;
+  }
